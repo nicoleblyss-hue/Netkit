@@ -1,2 +1,1 @@
-# Netkit
-A terminal toolkit for helpdesk network diagnostics, written in Python. Triage, ping with loss/jitter, traceroute, DNS records, service checks, TLS certs, HTTP timing, IP intel, whois, port scanning and a speed test in one TUI, using only the standard library.
+netkit is a single-file Python tool for troubleshooting network tickets from the terminal. Run triage to find out whether a problem is the local link, the gateway, DNS or the web, then drill in with ping stats, traceroute, DNS record lookups, per-service port checks (RDP, SMB, printers and more), certificate expiry checks, HTTP timing breakdowns and a speed test. Results can be saved to a file or copied straight into a ticket. It has no dependencies, and dnspython is optional for MX/TXT/DMARC records.
